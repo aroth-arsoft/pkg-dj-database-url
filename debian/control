@@ -1,0 +1,24 @@
+Source: dj-database-url
+Section: admin
+Priority: optional
+Maintainer: Andreas Roth <aroth@arsoft-online.com>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), dh-python, python (>= 2.7), python3 (>= 3.4)
+X-Python-Version: >=2.7
+X-Python3-Version: >=2.4
+
+Package: python-django-database-url
+Section: python
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: add DATABASE_URL environment variable to Django
+ This simple Django utility allows you to utilize the 12factor inspired
+ DATABASE_URL environment variable to configure your Django application.
+
+Package: python3-django-database-url
+Section: python
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: add DATABASE_URL environment variable to Django
+ This simple Django utility allows you to utilize the 12factor inspired
+ DATABASE_URL environment variable to configure your Django application.

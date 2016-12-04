@@ -1,0 +1,7 @@
+/.pybuild/
+/dj_database_url.egg-info/
+/PKG-INFO
+/README.rst
+/dj_database_url.py
+/setup.cfg
+/setup.py
